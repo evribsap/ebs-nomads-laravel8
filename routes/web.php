@@ -19,7 +19,7 @@ Route::get('/', [HomeController::class, 'index'])
 
 Route::prefix('admin')
     //->namespace('admin')
-    ->middleware(['admin'])
+    //->middleware(['admin'])
     ->group(function () {
     Route::get('/', [DashboardController::class, 'index'])
     ->name('dashboard');
