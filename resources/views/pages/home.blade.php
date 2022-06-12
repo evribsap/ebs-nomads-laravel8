@@ -125,7 +125,7 @@
                         </p>
                     </div>
                     <div class="col-md-8 text-center">
-                        <img src="frontend/images/partner.png" alt="Partners">
+                        <img src="{{ url('frontend/images/partner.png') }}" alt="Partners">
                     </div>
                 </div>
             </div>
@@ -153,7 +153,7 @@
                 <div class="section-popular-travel row justify-content-center match-height">
                     <div class="col-sm-6 col-md-6 col-lg-4">
                         <div class="card card-testimonial text-center">
-                            <img src="frontend/images/avatar-1.png" alt="User" class="mb-4 rounded-circle">
+                            <img src="{{ url('frontend/images/avatar-1.png') }}" alt="User" class="mb-4 rounded-circle">
                             <h3 class="mb-4">Angga Risky</h3>
                             <p class="testimonial">
                                 " It was glourius and i could not stop to say wohooo for every single moment Dankeeeeee "
@@ -166,7 +166,7 @@
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-4">
                         <div class="card card-testimonial text-center">
-                            <img src="frontend/images/avatar-2.png" alt="User" class="mb-4 rounded-circle">
+                            <img src="{{ url('frontend/images/avatar-2.png') }}" alt="User" class="mb-4 rounded-circle">
                             <h3 class="mb-4">Angga Risky</h3>
                             <p class="testimonial">
                                 " It was glourius and i could not stop to say wohooo for every single moment Dankeeeeee "
@@ -179,7 +179,7 @@
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-4">
                         <div class="card card-testimonial text-center">
-                            <img src="frontend/images/avatar-3.png" alt="User" class="mb-4 rounded-circle">
+                            <img src="{{ url('frontend/images/avatar-3.png') }}" alt="User" class="mb-4 rounded-circle">
                             <h3 class="mb-4">Angga Risky</h3>
                             <p class="testimonial">
                                 " It was glourius and i could not stop to say wohooo for every single moment Dankeeeeee "
