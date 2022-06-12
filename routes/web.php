@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\DetailController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Admin\DashboardController;
@@ -20,6 +21,9 @@ Route::get('/', [HomeController::class, 'index'])
         ->name('home');
 Route::get('/detail', [DetailController::class, 'index'])
         ->name('detail');
+
+Route::get('/checkout', [CheckoutController::class, 'index'])
+        ->name('checkout');
 
 Route::prefix('admin')
     //->namespace('admin')
